@@ -1,19 +1,20 @@
 # data-science-learning
 This repo contains my data science learning assignments.
-Titanic Passenger Survival Analysis
-Overview
+
+**Titanic Passenger Survival Analysis**
+**Overview**
 
 This project analyzes Titanic passenger data to identify factors affecting survival during the disaster. Using Python and pandas, we explored how demographics, ticket info, and family size relate to survival rates.
 
-Dataset
+**Dataset**
 
 Contains 714 passengers with variables such as Survived, Pclass, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, and Embarked.
 
-Approach
+**Approach**
 
 Loaded and cleaned data with pandas.
 
-Created new features:
+**Created new features:**
 
 FamilySize = SibSp + Parch + 1
 
@@ -25,7 +26,7 @@ Age_group (binned age ranges)
 
 Grouped data by demographics and features to calculate survival rates.
 
-Key Findings
+**Key Findings**
 
 Females and first-class passengers had higher survival rates.
 
@@ -35,12 +36,12 @@ Higher fare payers and younger passengers were more likely to survive.
 
 Survival rates varied by embarkation port.
 
-Tools
+**Tools**
 
 Python (pandas, numpy) for data processing and analysis.
 
 Grouping, aggregation, and feature engineering techniques were applied.
 
-Usage
+**Usage**
 
 Run the provided scripts or notebook with Titanic CSV data to reproduce analyses and outputs.
